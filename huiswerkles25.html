@@ -1,37 +1,37 @@
 <!DOCTYPE html>
 <html lang="nl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>jQuery Voorbeeld</title>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-        #hiddenMessage {
-            display: none;
-            margin-top: 20px;
-            color: blue;
-        }
-    </style>
-    <script>
-        $(document).ready(function(){
-            $("#showMessageButton").click(function(){
-                $("#hiddenMessage").toggle();
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>jQuery Voorbeeld</title>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+            }
+            #hiddenMessage {
+                display: none;
+                margin-top: 20px;
+                color: blue;
+            }
+        </style>
+        <script>
+            $(document).ready(function(){
+                $("#showMessageButton").click(function(){
+                    $("#hiddenMessage").toggle();
+                });
             });
-        });
-    </script>
-</head>
-<body>
-    <script type="text/JavaScript">
-        window.alert("Kijk daar, een OK-knop!");
         </script>
-        <noscript>
-        Om deze website optimaal te gebruiken is het noodzakelijk om JavaScript te activeren.
-        </noscript>
-    <h1>Welkom op mijn pagina. Met knoppen.</h1>
-    <button id="showMessageButton">Nou ja, nog een knop, klik mij aan!</button>
-    <p id="hiddenMessage">Dat was een goeie knop.</p>
-</body>
+    </head>
+    <body>
+        <script type="text/JavaScript">
+            window.alert("Kijk daar, een OK-knop!");
+            </script>
+            <noscript>
+            Om deze website optimaal te gebruiken is het noodzakelijk om JavaScript te activeren.
+            </noscript>
+        <h1>Welkom op mijn pagina. Met knoppen.</h1>
+        <button id="showMessageButton">Nou ja, nog een knop, klik mij aan!</button>
+        <p id="hiddenMessage">Dat was een goeie knop.</p>
+    </body>
 </html>
